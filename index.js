@@ -25,7 +25,7 @@
    var inLine = 'The line is currently: ';
    if(katzDeli<0){return 'The line is currently empty.'}
    for(var i = 0; i<katzDeli.length; i++){
-     inLine+= `${i}. ${katzDeli[i]},`
+     inLine+= `${i+1}. ${katzDeli[i]},`
      return inLine;
      
    }
