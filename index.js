@@ -13,7 +13,7 @@
  function nowServing(){
     if(katzDeli.length > 0){
       katzDeli.shift();
-      var serving = katzDeli[0];
+      var serving = katzDeli[1];
       
       return `Currently serving ${serving}`;
    } else{
