@@ -4,7 +4,7 @@
     katzDeliLine.push(customer);
     var line = katzDeliLine.length;
   
-    return `Welcome, ${customer}. You are number ${line+1} in line.`;
+    return `Welcome, ${customer}. You are number ${line} in line.`;
   
  }
  
