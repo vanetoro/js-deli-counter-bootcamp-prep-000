@@ -28,6 +28,6 @@
    for(var i = 0; i<katzDeliLine.length; i++){
      inLine+= `${i+1}. ${katzDeliLine[i]}, `;
    }
-   return inLine.slice(0,-1);
+   return inLine.slice(0,-2);
    }
  }
