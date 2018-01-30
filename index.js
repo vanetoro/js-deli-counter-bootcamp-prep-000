@@ -19,3 +19,14 @@
    return `Currently serving ${serving}`;
    }
  }
+ 
+ 
+ function currentLine(katzDeliLine){
+   var inLine = 'The line is currently: ';
+   if(katzDeli<0){return 'The line is currently empty.'}
+   for(var i = 0; i<katzDeli.length; i++){
+     inLine+= `${i}. ${katzDeli[i]},`
+     return inLine;
+     
+   }
+ }
