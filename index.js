@@ -11,12 +11,12 @@
  
  
  function nowServing(){
-    if(katzDeli.length <= 0){
-     return 'There is nobody waiting to be served!';
+    if(katzDeli.length > 0){
+      var serving = katzDeli[0];
+      katzDeli.shift();
+      return `Currently serving ${serving}`;
    } else{
-   var serving = katzDeli[0];
-   katzDeli.shift();
-   return `Currently serving ${serving}`;
+      return 'There is nobody waiting to be served!';
    }
    
  }
